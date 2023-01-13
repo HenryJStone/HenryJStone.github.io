@@ -10,21 +10,6 @@
     font-size: 30px;
 }
 
-.columnleft p {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 18px;
-}
-
-.columnleft h1 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 30px;
-}
-
-.centerColumn p {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 18px;
-}
-
 .centerColumn h1 {
     font-family: "Times New Roman", Times, serif;
     font-size: 45px;
@@ -35,10 +20,10 @@
 }
 
 /*style for top nav bar */
-.topnav {
+.navigation {
 
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.755);
+    background: black;
     position: fixed;
     width: 100%;
     top: 0;
@@ -47,7 +32,7 @@
 }
 
 /*style for the bars elements*/
-.topnav a {
+.navigation a {
 
     float: left;
     color: #f2f2f2;
@@ -62,16 +47,16 @@
 }
 
 /*hovering mouse over tab selection*/
-.topnav a:hover {
+.navigation a:hover {
 
     background-color: white;
     color: black;
 
 }
 /*current tab color*/
-.topnav a.active {
+.navigation a.active {
 
-    background-color: rgb(109, 52, 255);
+    background-color: rgb(78, 28, 205);
     
 }
 
@@ -80,42 +65,12 @@
     height: 400px;
     padding: 20px;
     margin: auto;
+    margin-top: 13%;
     text-align: center;
     /*background-color: rgb(186, 186, 186);*/
     background: rgba(0, 0, 0, 0.587);
     color: rgb(15, 15, 15);
     
-   
-}
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-
-.columnleft {
-    
-    float: left;
-    width: 35%;
-    height: 625px;
-    padding: 20px;
-    position: absolute;
-    left: 50px;
-    top: 110px; 
-    /*background-color: rgb(186, 186, 186);*/
-    background: rgba(0, 0, 0, 0.587);
-    color: white;
-
-}
-
-.center {
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;  
    
 }
 
@@ -125,16 +80,6 @@
     margin: 6px;
     list-style: none;
     
-}
-
-.contactList {
-
-    position: absolute;
-    padding-top: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;  
-
 }
 
 .centerColumn {
