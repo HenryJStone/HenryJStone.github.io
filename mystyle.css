@@ -1,0 +1,151 @@
+
+
+.column p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+.column h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+
+.columnleft p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+.columnleft h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+
+.centerColumn p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+.centerColumn h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 45px;
+}
+.centerColumn h2{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
+}
+
+/*style for top nav bar */
+.topnav {
+
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.755);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+       
+}
+
+/*style for the bars elements*/
+.topnav a {
+
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 22px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    
+
+
+}
+
+/*hovering mouse over tab selection*/
+.topnav a:hover {
+
+    background-color: white;
+    color: black;
+
+}
+/*current tab color*/
+.topnav a.active {
+
+    background-color: rgb(109, 52, 255);
+    
+}
+
+.column {
+    width: 35%;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    /*background-color: rgb(186, 186, 186);*/
+    background: rgba(0, 0, 0, 0.587);
+    color: rgb(15, 15, 15);
+    
+   
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.columnleft {
+    
+    float: left;
+    width: 35%;
+    height: 625px;
+    padding: 20px;
+    position: absolute;
+    left: 50px;
+    top: 110px; 
+    /*background-color: rgb(186, 186, 186);*/
+    background: rgba(0, 0, 0, 0.587);
+    color: white;
+
+}
+
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+   
+}
+
+.centerColumn li{
+
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    
+}
+
+.contactList {
+
+    position: absolute;
+    padding-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+
+}
+
+.centerColumn {
+
+    
+    width: 25%;
+    height: 625px;
+    padding: 35px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    /*background-color: rgb(186, 186, 186);*/
+
+}
